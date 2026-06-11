@@ -66,8 +66,6 @@ See [examples](examples)
 
 See [TTS with Hebrew Space](https://huggingface.co/spaces/thewh1teagle/phonikud-tts)
 
-See [Phonemize with Hebrew Space](https://huggingface.co/spaces/thewh1teagle/phonemize-in-hebrew)
-
 ## Community
 
 [![Discord](https://img.shields.io/badge/chat-discord-7289da.svg)](https://discord.gg/trfCMfhhum)
