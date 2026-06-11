@@ -221,13 +221,11 @@ Run `uv run pytest`
 If you find this code or our data helpful in your research or work, please cite the following paper.
 
 ```bibtex
-@misc{kolani2025phonikud,
-  title={Phonikud: Hebrew Grapheme-to-Phoneme Conversion for Real-Time Text-to-Speech},
+@inproceedings{kolani2026phonikud,
+  title={Phonikud: Overcoming Phonetic Underspecification for Hebrew Text-To-Speech},
   author={Yakov Kolani and Maxim Melichov and Cobi Calev and Morris Alper},
-  year={2025},
-  eprint={2506.12311},
-  archivePrefix={arXiv},
-  primaryClass={cs.CL},
+  booktitle={Proc. Interspeech 2026},
+  year={2026},
   url={https://arxiv.org/abs/2506.12311},
 }
 ```
@@ -237,4 +235,3 @@ If you find this code or our data helpful in your research or work, please cite 
 Special thanks ❤️ to [dicta-il](https://huggingface.co/dicta-il/dictabert-large-char-menaked) for their amazing Hebrew diacritics model ✨ and the dataset that made this possible!  
 
 Huge thanks to [Oron Kam](https://www.linkedin.com/in/oronkam/) for helping with training the best Hebrew Whisper IPA so far! 🙌
-
