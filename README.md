@@ -11,7 +11,7 @@
 <h1 align="center">Phonikud – Hebrew Grapheme-to-Phoneme</h1>
 
 <p align="center">
-  <em>Convert Hebrew text into IPA for TTS, speech technology, and language learning</em>
+  <em>Convert Hebrew text into IPA for TTS, speech technology, and language learning · Interspeech 2026</em>
 </p>
 
 <p align="center">
