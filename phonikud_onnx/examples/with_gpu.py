@@ -1,5 +1,5 @@
 """
-wget https://huggingface.co/thewh1teagle/phonikud-onnx/resolve/main/phonikud-1.0.int8.onnx
+wget https://huggingface.co/Phonikud/phonikud-onnx/resolve/main/phonikud-1.0.int8.onnx
 uv run --extra gpu python examples/with_gpu.py
 """
 from phonikud_onnx import Phonikud

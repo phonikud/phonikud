@@ -24,7 +24,7 @@ Phonetic details like these are essential for accurate pronunciation.
 
 ## Model card
 
-See [model card](https://huggingface.co/thewh1teagle/phonikud) on HuggingSpace 🤗
+See [model card](https://huggingface.co/Phonikud/phonikud) on HuggingSpace 🤗
 
 ## Setup
 
@@ -40,7 +40,7 @@ Add text files with diacritics, including Hat'ama and vocal Shva, to `data/`.
 Example input: `סֵ֫לֵרִי בְּֽ|מַעְבַּד מָזוֹן`
 
 ```console
-wget https://huggingface.co/datasets/thewh1teagle/phonikud-data/resolve/main/knesset_nikud_v6.txt.7z
+wget https://huggingface.co/datasets/Phonikud/phonikud-data/resolve/main/knesset_nikud_v6.txt.7z
 sudo apt install p7zip-full -y
 7z x knesset_nikud_v6.txt.7z
 cp knesset_nikud_v6.txt data/

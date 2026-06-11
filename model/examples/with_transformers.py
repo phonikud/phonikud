@@ -2,8 +2,8 @@ from transformers import AutoTokenizer, AutoModel
 from transformers.models.bert.tokenization_bert_fast import BertTokenizerFast
 import phonikud
 
-model = AutoModel.from_pretrained("thewh1teagle/phonikud", trust_remote_code=True)
-tokenizer: BertTokenizerFast = AutoTokenizer.from_pretrained("thewh1teagle/phonikud")
+model = AutoModel.from_pretrained("Phonikud/phonikud", trust_remote_code=True)
+tokenizer: BertTokenizerFast = AutoTokenizer.from_pretrained("Phonikud/phonikud")
 model.to("cpu")
 model.eval()
 

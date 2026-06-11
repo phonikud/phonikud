@@ -7,7 +7,7 @@ BASE_PATH = Path(__file__).parent / "../.."
 
 class TrainArgs(Tap):
     model_checkpoint: str = (
-        "dicta-il/dictabert-large-char-menaked"  # "thewh1teagle/phonikud"
+        "dicta-il/dictabert-large-char-menaked"  # "Phonikud/phonikud"
     )
     "Path or name of the pretrained model checkpoint"
 

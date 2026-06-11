@@ -5,7 +5,7 @@ From filesystem:
     uv run export.py --model ../phonikud/ckpt/last
 
 From HuggingFace:
-    uv run .\export.py --model thewh1teagle/phonikud
+    uv run .\export.py --model Phonikud/phonikud
 """
 
 import torch
@@ -23,7 +23,7 @@ from model.phonikud_model import (
 
 # Global metadata to add to ONNX models
 metadata = {
-    "commit": "aef4b26",  # https://huggingface.co/thewh1teagle/phonikud/tree/main
+    "commit": "aef4b26",  # https://huggingface.co/Phonikud/phonikud/tree/main
 }
 
 
@@ -41,7 +41,7 @@ def parse_args():
     parser.add_argument(
         "--model",
         type=str,
-        default="../model/ckpt/best_wer",  # dicta-il/dictabert-large-char-menaked # ../model/ckpt/best_wer # thewh1teagle/phonikud
+        default="../model/ckpt/best_wer",  # dicta-il/dictabert-large-char-menaked # ../model/ckpt/best_wer # Phonikud/phonikud
         help="Name of the model to export and quantize.",
     )
     return parser.parse_args()

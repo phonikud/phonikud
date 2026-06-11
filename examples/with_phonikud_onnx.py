@@ -1,7 +1,7 @@
 """
 pip install -U phonikud-onnx phonikud
 
-wget https://huggingface.co/thewh1teagle/phonikud/resolve/main/phonikud-1.0.int8.onnx
+wget https://huggingface.co/Phonikud/phonikud/resolve/main/phonikud-1.0.int8.onnx
 uv run examples/with_phonikud_onnx.py
 """
 

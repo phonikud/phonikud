@@ -2,7 +2,7 @@
 uv venv -p3.11
 uv pip install -U phonikud-onnx "flask>=3.1.1"
 
-wget https://huggingface.co/thewh1teagle/phonikud/resolve/main/phonikud-1.0.int8.onnx
+wget https://huggingface.co/Phonikud/phonikud/resolve/main/phonikud-1.0.int8.onnx
 uv run main.py
 """
 

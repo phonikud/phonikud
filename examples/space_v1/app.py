@@ -1,6 +1,6 @@
 """
 uv sync
-wget https://huggingface.co/thewh1teagle/phonikud-onnx/resolve/main/phonikud-1.0.int8.onnx
+wget https://huggingface.co/Phonikud/phonikud-onnx/resolve/main/phonikud-1.0.int8.onnx
 uv run gradio app.py
 """
 
@@ -111,7 +111,7 @@ with gr.Blocks(theme=theme, css=css) as demo:
 
     gr.Markdown(f"""
         <p style='text-align: center; opacity: 0.2; font-size: 10px;'>
-            <a href='https://huggingface.co/thewh1teagle/phonikud/commit/{commit}' target='_blank' style='color: white;'>phonikud version {commit}</a>
+            <a href='https://huggingface.co/Phonikud/phonikud/commit/{commit}' target='_blank' style='color: white;'>phonikud version {commit}</a>
         </p>
     """)
 

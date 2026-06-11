@@ -43,7 +43,7 @@
 pip install phonikud phonikud-onnx
 ```
 
-2. Download [phonikud-1.0.int8.onnx](https://huggingface.co/thewh1teagle/phonikud-onnx/resolve/main/phonikud-1.0.int8.onnx)
+2. Download [phonikud-1.0.int8.onnx](https://huggingface.co/Phonikud/phonikud-onnx/resolve/main/phonikud-1.0.int8.onnx)
 
 3. Use with
 
@@ -188,10 +188,10 @@ This ensures accurate and clear speech synthesis. Since the output phonemes are 
 
 ## Datasets
 
-- [ILSpeech](https://huggingface.co/datasets/thewh1teagle/ILSpeech) (speech, non commercial)
-- [Saspeech](https://huggingface.co/datasets/thewh1teagle/saspeech) (speech, non commercial)
-- [phonikud-data](https://huggingface.co/datasets/thewh1teagle/phonikud-data) (nikud and phonetics, cc-4.0)
-- [phonikud-phonemes-data](https://huggingface.co/datasets/thewh1teagle/phonikud-phonemes-data) (enhanced nikud alongside IPA phonemes, cc-4.0)
+- [ILSpeech](https://huggingface.co/datasets/Phonikud/ILSpeech) (speech, non commercial)
+- [Saspeech](https://huggingface.co/datasets/Phonikud/saspeech) (speech, non commercial)
+- [phonikud-data](https://huggingface.co/datasets/Phonikud/phonikud-data) (nikud and phonetics, cc-4.0)
+- [phonikud-phonemes-data](https://huggingface.co/datasets/Phonikud/phonikud-phonemes-data) (enhanced nikud alongside IPA phonemes, cc-4.0)
 
 ## License
 
