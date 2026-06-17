@@ -11,16 +11,18 @@
 <h1 align="center">Phonikud – Hebrew Grapheme-to-Phoneme</h1>
 
 <p align="center">
-  <em>Convert Hebrew text into IPA for TTS, speech technology, and language learning · Interspeech 2026</em>
+  <em>Convert Hebrew text into IPA for TTS and language learning</em>
 </p>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Interspeech-2026-blue" alt="Interspeech 2026" />
+  &nbsp;
   <a target="_blank" href="https://phonikud.github.io">
-    🌐 Project Page
+    <img src="https://img.shields.io/badge/🌐_Project-Page-green" alt="Project Page" />
   </a>
-  &nbsp; | &nbsp; 
+  &nbsp;
   <a target="_blank" href="https://arxiv.org/abs/2506.12311">
-    📄 Research Paper
+    <img src="https://img.shields.io/badge/arXiv-2506.12311-b31b1b" alt="arXiv" />
   </a>
 </p>
 
