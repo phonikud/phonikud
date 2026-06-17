@@ -27,7 +27,7 @@
 </p>
 
 <p align="center">
-  <em>For further improved G2P, see <a href="https://github.com/thewh1teagle/renikud"><strong>Renikud</strong></a></em>
+  <em>For further improved G2P, see <a href="https://renikud.github.io"><strong>Renikud</strong></a></em>
 </p>
 
 <hr />
