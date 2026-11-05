@@ -66,4 +66,5 @@ def test_phonemize_hebrew_manual():
     base = Path(__file__).parent / "phonemize_test_tables"
     check_file(base / "basic.csv")
     check_file(base / "dictionary.csv")
+    check_file(base / "numbers.csv")
     check_file(base / "advanced.csv", warn_only=True)
