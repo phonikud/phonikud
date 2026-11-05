@@ -64,7 +64,7 @@ class Phonemizer:
                 return word
 
             if predict_vocal_shva:
-                mark_vocal_shva(word)
+                word = mark_vocal_shva(word)
             if lexicon.HATAMA_DIACRITIC not in word and predict_stress:
                 word = add_milra_hatama(word)
             letters: list[Letter] = get_letters(word)
