@@ -181,13 +181,19 @@ def mark_vocal_shva(word: str):
     letters = get_letters(word)
     if not letters:
         return word
-    if letters[0].char in "למנרי":
-        letters[0].all_diac += lexicon.VOCAL_SHVA_DIACRITIC
-    elif len(letters) > 1 and letters[1].char in "אעה":
-        letters[0].all_diac += lexicon.VOCAL_SHVA_DIACRITIC
-    elif letters[0].char in "וכלב" and lexicon.PREFIX_DIACRITIC in letters[0].all_diac:
-        # ^ The nakdan should add |
-        letters[0].all_diac += lexicon.VOCAL_SHVA_DIACRITIC
+    first = letters[0]
+    # Only a Shva can be vocal, and it may already be marked (eg. by the model)
+    if (
+        lexicon.NIKUD["SHVA"] in first.all_diac
+        and lexicon.VOCAL_SHVA_DIACRITIC not in first.all_diac
+    ):
+        if (
+            first.char in "למנרי"
+            or (len(letters) > 1 and letters[1].char in "אעה")
+            # The nakdan should add |
+            or (first.char in "וכלב" and lexicon.PREFIX_DIACRITIC in first.all_diac)
+        ):
+            first.all_diac += lexicon.VOCAL_SHVA_DIACRITIC
     # Ensure that prefix character will be last
     for letter in letters:
         if "|" in letter.all_diac:
